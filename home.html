@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+
+            background: url("img/s.jpg");
+            /* Full height */
+            /* height: 600px; */
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .container {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, white, #7f19d986, white);
+        }
+
+        h1 span {
+            color: blueviolet;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        li {
+            padding: 10px;
+            list-style-type: none;
+            font-size: 19px;
+        }
+
+        .tag {
+            font-size: 50px;
+            margin-top: 20px;
+            margin-left: 25px;
+            color: rgba(169, 109, 206, 0.785);
+
+        }
+
+        .wall {
+            /* color: rgba(204, 163, 230, 0.799); */
+            color: rgba(255, 255, 255, 0.418);
+            text-shadow: 2px 2px 4px #980ef438;
+            font-size: 450px;
+            /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+            padding-left: 140px;
+            padding-top: 20px;
+        }
+
+        img {
+            height: 300px;
+            width: 400px;
+            object-fit: cover;
+        }
+
+        /* .im {
+            display: grid;
+            column-gap: 5px;
+            grid-template-columns: auto auto auto;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h1><span>K</span>-pop</h1>
+            <ul>
+                <li><a href="#photo"><i class="fa-regular fa-image"></i>Photos</a></li>
+                <li><a href="https://get.wynk.in/music/artist/bts/wa_c3e40113?q=bts"><i
+                            class="fa-solid fa-music"></i>Audio</a></li>
+                <li><a href="#video"><i class="fa-solid fa-photo-film"></i>Video</a></li>
+                <li><a href=""><i class="fa-solid fa-face-grin-hearts"></i>Live-Concert</a></li>
+            </ul>
+        </div>
+        <!-- <div> -->
+        <h1 class="tag "> “Team work makes the dream work”</h1>
+        <h1 class="tag wall">BTS</h1>
+    </div>
+    <div class="im" id="photo">
+        <a href="img/a.jpg"><img src="img/a.jpg" alt=""></a>
+        <a href="img/sda.jpg"><img src="img/sda.jpg" alt=""></a>
+        <a href="img/b.jpg"><img src="img/b.jpg" alt=""></a>
+        <a href="img/aa.jpg"><img src="img/aa.jpg" alt=""></a>
+        <a href="img/c.jpg"><img src="img/c.jpg" alt=""></a>
+        <a href="img/f.jpg"><img src="img/f.jpg" alt=""></a>
+        <a href="img/ff.jpg"><img src="img/ff.jpg" alt=""></a>
+        <a href="img/h.jpg"><img src="img/h.jpg" alt=""></a>
+        <a href="img/r.jpg"><img src=" img/r.jpg" alt=""></a>
+        <a href="img/s.jpg"><img src="img/s.jpg" alt=""></a>
+        <a href="img/sd.jpg"><img src="img/sd.jpg" alt=""></a>
+        <a href="img/sda.jpg"><img src="img/sda.jpg" alt=""></a>
+
+    </div>
+    <div id="audio">
+        <audio controls>
+            <source src="Audio/bts_fire.mpeg" type="audio/ogg">
+        </audio>
+        <audio controls>
+            <source src="Audio/bts_fire.mpeg" type="audio/ogg">
+        </audio>
+        <audio controls>
+            <source src="Audio/bts_fire.mpeg" type="audio/ogg">
+        </audio>
+    </div>
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4ujQOR2DMFM?si=OQpaGHuHLGS5BVrN"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4ujQOR2DMFM?si=1E8JExIwVXS9C8ww"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    </div>
+</body>
+
+</html>
